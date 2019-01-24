@@ -25,7 +25,7 @@ SECRET_KEY = '_35y9jvp3l&oi+l6c#ouq=gxntfma=(48m##iw(471b8ptu=e$'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['blog.holegots.com','127.0.0.1']
 
 
 # Application definition
@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'wx_talk',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [

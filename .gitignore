@@ -1,2 +1,6 @@
 /env
 /.vscode
+*.cpython
+*.pyc
+wx_talk/migrations
+/.idea

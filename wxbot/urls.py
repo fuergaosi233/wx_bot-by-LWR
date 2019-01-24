@@ -15,7 +15,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from wx_talk.views import TalkAPIView
+from rest_framework import routers
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('bot/', TalkAPIView.as_view(),name='bot'),
 ]
