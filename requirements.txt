@@ -5,7 +5,7 @@ chardet==3.0.4
 cli-helpers==0.2.3
 Click==7.0
 configobj==5.0.6
-Django==2.1.5
+Django==2.2.10
 django-pyodbc-azure==2.1.0.0
 djangorestframework==3.9.0
 enum34==1.1.6
