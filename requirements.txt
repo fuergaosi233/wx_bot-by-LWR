@@ -14,7 +14,7 @@ humanize==0.5.1
 idna==2.8
 mssql-cli==0.15.0
 prompt-toolkit==1.0.15
-Pygments==2.3.1
+Pygments==2.7.4
 pyodbc==4.0.25
 pytz==2018.9
 requests==2.21.0
