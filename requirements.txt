@@ -21,5 +21,5 @@ requests==2.21.0
 six==1.12.0
 sqlparse==0.2.4
 terminaltables==3.1.0
-urllib3==1.24.1
+urllib3==1.26.5
 wcwidth==0.1.7
